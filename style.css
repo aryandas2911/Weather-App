@@ -4,6 +4,12 @@
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     box-sizing: border-box;
     color: white;
+    font-weight: 600;
+}
+
+/* Utility class */
+.regular-txt{
+    font-weight: 400;
 }
 
 /* Background image */
@@ -42,6 +48,7 @@ body::before{
 /* Input container */
 .input-container{
     position: relative;
+    margin-bottom: 25px;
 }
 
 /* Input box */
@@ -50,7 +57,6 @@ body::before{
     padding: 10px 20px;
     padding-right: 45px;
     font-size: 15px;
-    font-weight: 10px;
     border: 2px solid transparent;
     outline: none;
     border-radius: 100px;
@@ -79,3 +85,21 @@ body::before{
     transform: translateY(-45%);
 }
 
+/* Weather Info Container */
+.weather-info{
+  
+}
+
+/* Location Date Container */
+.location-date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Location Container */
+.location-container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
