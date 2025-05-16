@@ -150,7 +150,7 @@ body::before{
 /* Forecast Items Container */
 .forecast-items-container{
     display: flex;
-    gap: 15px;
+    gap: 12px;
     overflow-x: scroll;
     padding-bottom: 12px;
 }
@@ -180,10 +180,31 @@ body::before{
     gap: 6px;
     padding: 10px;
     border-radius: 12px;
+    transition: 0.2s;
+}
+
+.forecast-item:hover{
+    background: rgb(255,255,255,0.15);
 }
 
 /* Forecast Item Image */
 .forecast-item-img{
-    width: 62px;
-    height: 62px;
+    width: 60px;
+    height: 60px;
+}
+
+
+/* Section for Searching City and City not found */
+.section-message img{
+    height: 200px;
+    width: fit-content;
+}
+
+.section-message{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    align-items: center;
+    margin-top: 22%;
 }
